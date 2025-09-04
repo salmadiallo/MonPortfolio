@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio de Salma</title>
+    <!-- liens css externes -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+     <!-- liens css internes -->
+      <link rel="stylesheet" href="assets/css/style.css ">
+
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav_logo">Diallo <span>Salamata</span></a>
+
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_liste">
+                    <li><a href="#home" class="nav_link active-link">Acceuil</a></li>
+                    <li><a href="#about" class="nav_link  ">A propos</a></li>
+                    <li><a href="#portfolio" class="nav_link ">Mes projets</a></li>
+                    <li><a href="#competences" class="nav_link ">Mes compétences</a></li>
+                    <li><a href="#contact" class="nav_link active ">Contact</a></li>
+                </ul>
+            
+                <div class="nav_close" id="nav_close">
+                    <i class="ui uil-times"></i>
+                </div>
+            </div>
+            <!-- les boutons parlons et le toggle -->
+            <div class="nav_boutons">
+                <a href="#contact" class="nav_link_bouton bouton">Parlons !</a>
+               
+
+                <div class="nav_toggle" id="nav_toggle">
+                        <i class="uil uil-bars"></i>
+                </div>
+            </div>
+            
+        </nav>
+    </header>
+
+    <!-- main debut -->
+    <main class="main">
+        <!-- Acceuil -->
+        <section class="home" id="home">
+            <div class="home_container container grid">
+                <div class="home_content">
+                    <span class="home_subtitle">Bienvenue dans mon univers</span>
+                    <h1 class="home_title">Bonjour, je suis Salamata Diallo <span>développeuse web </span> basée en Guinée.</h1>
+                   
+                </div>
+
+                <img src="assets/img/photoSalma.png" alt="" class="home_img">
+            </div>  
+        </section>
+
+        <!-- A propos -->
+        <section class="about section " id="about">
+            <div class="about_container container grid">
+                <div class="about_content">
+                    <h2 class="section_title">A propos de Moi</h2>
+                    
+                    <p class="about_description">
+                        Je suis passionné(e) par le développement web, la communication digitale et les technologies modernes.À travers mes projets, je mets en avant ma créativité, mon sens du détail et mon envie de construire des solutions utiles et efficaces.
+                    </p>
+                    <div class="tabs_bouttons">
+                        <span class="tabs_btn tab_active" data-target="#Formations">Formations</span>
+                        <span class="tabs_btn" data-target="#experiences">Expériences</span>
+                        <span class="tabs_btn" data-target="#hobies">Hobies</span>
+                        <span class="tabs_btn" data-target="#activites">Activités associtiatives</span>
+                    </div>
+
+                    <div class="tabs_content">
+                        <div class="tabs_item tab_active " id="Formations" data-content>
+                            <div class="tabs_data grid">
+                                <p class="tabs_description">
+                                    <span> Formations Developpement web</span>
+                                    <span>*** En ligne chez L’OIF(Organisation Internationnale de la Francophonie) En cours</span>
+                                </p>
+                                <p class="tabs_description">
+                                    <span>2022-2024 Université de Labé </span>
+                                    <span>*** Diplôme obtenu : Licence en Informatique</span>
+                                </p>
+                                <p class="tabs_description">
+                                    <span> etc</span>
+                                    <span>...</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tabs_item " id="experiences" data-content>
+                            <div class="tabs_data grid">
+                                <p class="tabs_description">
+                                    <span>*** Cheffe d’équipe du projet Entrepreneuriat féminin Guinée </span>
+                                    <span></span>
+                                </p>
+                                <p class="tabs_description">
+                                    <span>*** Participation au Hackathon Universitaire 2023. </span>
+                                    <span></span>
+                                </p>
+                                <p class="tabs_description">
+                                    <span>*** Cheffe de section développement web club-jp.com 2024</span>
+                                    <span>...</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tabs_item " id="hobies" data-content>
+                            <div class="tabs_data grid">
+                                <p class="tabs_description">
+                                    <span>*** Internet</span>
+                                    <span>***Apprendre</span>
+                                </p>
+                                <p class="tabs_description">
+                                    <span>*** Nature</span>
+                                    <span> *** Sport </span>
+                                </p>
+                                <p class="tabs_description">
+                                    <span>***  Voyage</span>
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="tabs_item " id="activites" data-content>
+                            <div class="tabs_data grid">
+                                <p class="tabs_description">
+                                    <span>*** Membre du Club des jeunes Programmeurs (CJP) club-jp.com</span>
+                                    <span></span>
+                                </p>
+                                <p class="tabs_description">
+                                    <span>*** Ambassadrice de L’ONG FATA Schoo</span>
+                                    <span></span>
+                                </p>
+                                <p class="tabs_description">
+                                    <span>...</span>
+                                    <span></span>
+                                </p>
+                            </div>
+                        </div>
+  
+                    </div>
+
+                    <a href="assets/img/CV_SalamataDiallo.pdf" target="_blank" class="buton btn-cv"> Voir mon CV</a>
+                    <a href="assets/img/CV_SalamataDiallo.zip" download="CV_SalamataDiallo.zip" class="buton btn-cv">Télécharger mon CV</a>
+
+                </div>
+                <img src="assets/img/photoSalma2.jpg" alt="Image de Salamata Diallo" class="about_img photoSalma2">
+            </div>
+        </section>
+
+
+        <!-- Projets -->
+
+        <section class="portfolio section " id="portfolio">
+            <div class="entete_portfolio">
+                <h2 class="section_title">Mes projets</h2>
+                <p class="section_description">
+                    Découvrez les projets auxquels j’ai contribué et explorez mes réalisations concrètes.
+                </p>
+            </div>
+            <div class="portfolio_container container grid">
+                <div class="portfolio_item">
+                    <img src="assets/img/techGirls.jpg" alt="photo projet"style="height: 100%; width: 100%;"  class="projet_img">
+
+                    <div class="portfolio_data">
+                        <p class="portfolio_subtitle">Developpement</p>
+                        <h3 class="portfolio_title">TechGirlsGuinea</h3>
+                        <p class="portfolio_description">Details bientôt disponibles</p>
+                        <button type="button" class="bouton voir-plus" >Voir plus</button>
+                    </div>
+                </div>
+                <div class="portfolio_item">
+                    <img src="assets/img/Shop.png" alt="photo projet"style="height: 100%; width: 100%;" class="projet_img">
+
+                    <div class="portfolio_data">
+                        <p class="portfolio_subtitle">Developpement</p>
+                        <h3 class="portfolio_title">Starckly world Business</h3>
+                        <p class="portfolio_description">Details bientôt disponibles</p>
+                        <button type="button" class="bouton voir-plus">Voir plus</button>
+                    </div>
+                </div>
+                <div class="portfolio_item">
+                    <img src="assets/img/Entreprenariat.jpg" alt="photo projet" style="height: 100%; width: 100%;" class="projet_img">
+
+                    <div class="portfolio_data">
+                        <p class="portfolio_subtitle">Developpement</p>
+                        <h3 class="portfolio_title">Entrepreneuriat Féminin Guinée</h3>
+                        <p class="portfolio_description">Details bientôt disponibles</p>
+                        <button type="button" class="bouton voir-plus">Voir plus</button>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <!-- Competences -->
+
+        <section class="competences container section" id="competences">
+            <div class="entete_competences">
+                <h2 class="section_title">Mes Competences</h2>
+                <p class="competences_description">
+                   Avec un sens aigu des responsabilités et un esprit d’équipe, j’utilise mes compétences en HTML, CSS, JS, Python (Django), Git/GitHub et autres pour transformer les idées en projets web concrets.
+                </p>
+            </div>
+            <div class="competence_container  grid">
+                <div class="soft">
+                    <h2 class="competences_title">Soft Skills</h2>
+                    <p class="comptence_subtitle">ADAPTABILITE</p>
+                    <div class="progression_container">
+                        <div class="progression_barre_1"></div>
+                    </div>
+                    <p class="comptence_subtitle">ESPRIT D'EQUIPE</p>
+                    <div class="progression_container">
+                        <div class="progression_barre_2"></div>
+                    </div>
+                    <p class="comptence_subtitle">SENS DE RESPONSABILITE</p>
+                    <div class="progression_container">
+                        <div class="progression_barre_3"></div>
+                    </div>
+
+                </div>
+                <div class="hard">
+                    <h2 class="competences_title">Hard Skills</h2>
+                    <p class="comptence_subtitle"> HTML/CSS/JS</p>
+                    <div class="progression_container">
+                        <div class="progression_barre_4"></div>
+                    </div>
+                    <p class="comptence_subtitle"> PYTHON (DJANGO)</p>
+                    <div class="progression_container">
+                        <div class="progression_barre_5"></div>
+                    </div>
+                    <p class="comptence_subtitle"> Git /GitHub</p>
+                    <div class="progression_container">
+                        <div class="progression_barre_6"></div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact section container" id="contact">
+            <div class="contact_container grid">
+                <div class="contact_content">
+                    <h2 class="section_title">Contactez moi</h2>
+                    <p class="contact_description">
+                        Je reste disponible pour un travail en freelance. N'hésitez pas à me confier vos tâches
+                    </p>
+                    <form action="" class="contact_form" id="contact-form">
+                        <div class="ligne">
+                            <div class="contact_form_input">
+                                <input type="text" name="nom" placeholder="Votre nom *" class="contact_input" id="contact_nom">
+                            </div>
+                            <div class="contact_form_input">
+                                <input type="text" name="prenom" placeholder="Votre prénom *" class="contact_input" id="contact_prenom">
+                            </div>
+                        </div>
+                        <div class="contact_form_input">
+                            <input type="text" name="email" placeholder="Votre email *" class="contact_input" id="contact_email">
+                        </div>
+                        <div class="contact_form_input">
+                            <input type="text" name="sujet" placeholder="Sujet *" class="contact_input" id="contact_sujet">
+                        </div>
+                        <div class="contact_form_input">
+                            <input type="text" name="message" placeholder="Votre message *" class="contact_input textarea"  id="contact_message">
+                        </div>
+                        <input type="submit" value="Soumettre" class="bouton">
+                        <p class="erreur_envoie" id="erreur_envoie"></p>
+                    </form>  
+                </div>
+                <!-- <img src="assets/img/heroine.png" alt=""> -->
+            </div>
+        </section>
+
+
+    </main> 
+    <!-- main end -->
+
+    <!-- pour le bouton de scroll en bas de page -->
+    <a href="#" class="scrollhaut" id="scroll-haut">
+        <i class="uil uil-angle-up scroolhaut_icon"></i>
+    </a>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer_container container grid">
+            <a href="index.html" class="footer_logo">Salamata <span>Diallo</span></a>
+            <div class="footer_reseaux">
+                <a href="www.facebook.com" target="_blank" class="footer_reseau_lien">
+                    <i class="uil uil-facebook-f"></i>
+                </a>
+                <a href="www.linkedin.com" target="_blank" class="footer_reseau_lien">
+                    <i class="uil uil-linkedin"></i>
+                </a>
+            </div>
+            <p class="footer_copyright">&copy; 2025 Tous droits réservés.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Email  -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
